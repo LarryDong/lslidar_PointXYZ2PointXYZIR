@@ -1,0 +1,10 @@
+
+<launch>
+    <node pkg="lslidar_conversion" type="lslidar_convertor" output="screen" name="lslidar_convertor">
+        <remap from="/pc_input" to="/horLidar/hor_lidar_points_cloud" /> 
+        <remap from="/pc_output" to="/pc_output" /> 
+    </node>
+
+
+</launch>
+
