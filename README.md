@@ -28,3 +28,6 @@ You can view each ring in rviz by select and modify the topic names (`ring_0` to
 - The `ring` information was obtained by directly calculated by "arctan(z/distance)", `intensity` is not provided by lslidar.
 - The `ring` is based on "0.33 degree mode" of lslidar. 
 - You cannot just change the "0.33" mode to "1" mode to get 1-degree mode data. Because the lidar hardware doesn't support different configurations.
+
+## CSDN blog (In Chinese)
+[CSDN的总结与说明](https://blog.csdn.net/tfb760/article/details/129108936)
